@@ -1,6 +1,6 @@
 let c = document.getElementById("btn");
 
-c.addEventListener("submit", function(event) {
+c.addEventListener("click", function(event) {
     event.preventDefault();
     
     let a = document.getElementById("age").value;
